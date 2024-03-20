@@ -1,0 +1,61 @@
+* {
+    overflow: hidden;
+    margin: 0;
+}
+
+video {
+    position: fixed;
+}
+
+div {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 40px;
+    width:20%;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+input:focus {
+    background-color: steelblue;
+    border-color: steelblue;
+    color: white;
+    outline: none;
+}
+
+.reset-btn {
+    color: white;
+    background-color: purple;
+    border-radius: 3px;
+    border: none;
+    width: 30%;
+    margin: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: black;
+}
+
+.submit-btn {
+    color: white;
+    background-color: purple;
+    border-radius: 3px;
+    border: none;
+    width: 30%;
+    margin: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: black;
+}
